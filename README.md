@@ -17,6 +17,8 @@ ansible-galaxy install DimitriSteyaert/composer
 
 - `DimitriSteyaert/php-fpm`
 
+Well actually any PHP role should be sufficient, as long as there is a `php` command available in the execution path on your system.
+
 ### Role variables
 
 List of default variables available in the inventory:
