@@ -1,0 +1,33 @@
+---
+
+dependencies:
+  - role: DimitriSteyaert/php-fpm
+
+galaxy_info:
+  author: 'Dimitri Steyaert'
+  description: 'Install the PHP dependency manager Composer'
+  company: 'Steyaert Web Services'
+  license: 'MIT'
+  min_ansible_version: '1.9'
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - yakkety
+        - zesty
+    - name: Debian
+      versions:
+        - wheezy
+        - jessie
+  galaxy_tags:
+    - composer
+    - php
+
+ansigenome_info:
+  galaxy_id: 'DimitriSteyaert'
+  travis: False
+  synopsis: |
+    This role basically just installs the PHP dependency manager Composer on your machine. If composer is already installed you can also choose to upgrade this component.
+  usage: |
+    By default Composer is installed in the directory /usr/local/bin and with version 1.4.1. These 2 variables can be modified to your own liking.
