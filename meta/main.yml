@@ -23,6 +23,7 @@ galaxy_info:
   galaxy_tags:
     - composer
     - php
+    - development
 
 ansigenome_info:
   galaxy_id: 'DimitriSteyaert'
