@@ -34,6 +34,16 @@ composer_parentdir: /usr/local/bin
 By default Composer is installed in the directory /usr/local/bin and with version 1.4.1. These 2 variables can be modified to your own liking.
 Upgrading or downgrading of Composer on your system can be done by defining another `composer_version`.
 
+#### Examples
+
+This is a basic playbook to install Composer with the default variables:
+```YAML
+---
+- hosts: all
+  roles:
+    - composer
+```
+
 ### Authors and license
 
 The `composer` role was written by:
